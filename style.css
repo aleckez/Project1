@@ -1,0 +1,116 @@
+.menu1{
+    font-family: monospace;
+    position: fixed;
+    height: 600px;
+    width: 300px;
+    bottom: 0;
+    left: 23%;
+    border: 3px solid #73AD21;
+    z-index: 0;
+}
+.menu2{
+    font-family: monospace;
+    position: fixed;
+    height: 600px;
+    width: 300px;
+    bottom: 0;
+    left: 48%;
+    border: 3px solid #73AD21;
+    z-index: 0;
+}
+.menu3{
+    font-family: monospace;
+    position: fixed;
+    height: 600px;
+    width: 300px;
+    bottom: 0;
+    left: 73%;
+    border: 3px solid #73AD21;
+    z-index: 0;
+}
+.box1{
+    font-family: BaO;
+    font-size: 40px;
+    position: fixed;
+    top: -13%;
+    left: 45%;
+    z-index: 0;
+}
+.bg{
+    position: fixed;
+    bottom: 0;
+    left: 18%;
+    z-index: -1;
+}
+body {
+    margin: 0;
+    background: #e6e6e6;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    background-color: #595959;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #333;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color:  #999;
+    color: white;
+}
+.box2{
+    font-family: BaO;
+    font-size: 30px;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    height: 500px;
+    width: 300px;
+}
+h2.center {
+    text-align: center;
+}
+h2.center2 {
+    margin: 0;
+    z-index: 0;
+    text-align: center;
+    font-family: BaO;
+    font-size: 43px;
+}
+@font-face{
+    font-family:"BaO";
+    src: url('Beautiful and Openhearted.ttf');
+}
+.maps{
+    position: fixed;
+    bottom: 10%;
+    left: 45%;
+    border: 3px solid #666;
+}
+p.center{
+    margin: 0;
+    z-index: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px; 
+}
+.about{
+    position: fixed;
+    top: 0;
+    left: 27%;
+    z-index: -1;
+    height: 700px;
+    width 1920px;
+}
